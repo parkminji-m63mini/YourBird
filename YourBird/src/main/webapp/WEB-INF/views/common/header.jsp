@@ -1,5 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="utf-8">
@@ -9,24 +13,26 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+	<c:set var="contextPath" value="${pageContext.servletContext.contextPath}" scope="application"/>
+
   <!-- Favicons -->
-  <link href="resources/img/favicon.png" rel="icon">
-  <link href="resources/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="${contextPath}/resources/img/favicon.png" rel="icon">
+  <link href="${contextPath}/resources/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="resources/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="resources/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="resources/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="resources/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="resources/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="resources/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="${contextPath}/resources/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="resources/css/style.css" rel="stylesheet">
+  <link href="${contextPath}/resources/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Sailor - v2.2.0
@@ -51,20 +57,20 @@
         <ul>
         
           <%-- <li class="active"><a href="#">About</a></li>--%>
-        <li ><a href="#">About</a></li>
+        <li ><a href="${contextPath}/company/about">About</a></li>
 
 
 		 <li class="drop-down"><a href="#">Dictionary</a>
            <ul>
              
-                  <li><a href="#">Got7</a></li>
-                  <li><a href="#">JB</a></li>
-                  <li><a href="#">Mark</a></li>
-                  <li><a href="#">Jackson</a></li>
-                  <li><a href="#">Jinyoung</a></li>
-                  <li><a href="#">Youngjae</a></li>
-                  <li><a href="#">BamBam</a></li>
-                  <li><a href="#">Yugyeom</a></li>
+                  <li><a href="${contextPath}/dictionary/got7">Got7</a></li>
+                  <li><a href="${contextPath}/dictionary/jB">JB</a></li>
+                  <li><a href="${contextPath}/dictionary/mark">Mark</a></li>
+                  <li><a href="${contextPath}/dictionary/jackson">Jackson</a></li>
+                  <li><a href="${contextPath}/dictionary/jinyoung">Jinyoung</a></li>
+                  <li><a href="${contextPath}/dictionary/youngjae">Youngjae</a></li>
+                  <li><a href="${contextPath}/dictionary/bamBam">BamBam</a></li>
+                  <li><a href="${contextPath}/dictionary/yugyeom">Yugyeom</a></li>
               
            </ul>
           </li>
@@ -159,22 +165,22 @@
   </header><!-- End Header -->
 
 
- s
+ 
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="resources/vendor/jquery/jquery.min.js"></script>
-  <script src="resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="resources/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="resources/vendor/php-email-form/validate.js"></script>
-  <script src="resources/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="resources/vendor/venobox/venobox.min.js"></script>
-  <script src="resources/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="resources/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="${contextPath}/resources/vendor/jquery/jquery.min.js"></script>
+  <script src="${contextPath}/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="${contextPath}/resources/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="${contextPath}/resources/vendor/php-email-form/validate.js"></script>
+  <script src="${contextPath}/resources/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="${contextPath}/resources/vendor/venobox/venobox.min.js"></script>
+  <script src="${contextPath}/resources/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="${contextPath}/resources/vendor/owl.carousel/owl.carousel.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="resources/js/main.js"></script>
+  <script src="${contextPath}/resources/js/main.js"></script>
 
 </body>
 
