@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sailor Bootstrap Template - Index</title>
+  <title>header</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -42,38 +42,112 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo"><a href="index.html">Your_Bird</a></h1>
+      <h1 class="logo"><a href="${contextPath}">Your_Bird</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
 
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+        
+          <%-- <li class="active"><a href="#">About</a></li>--%>
+        <li ><a href="#">About</a></li>
 
-          <li class="drop-down"><a href="#">About</a>
+
+		 <li class="drop-down"><a href="#">Dictionary</a>
+           <ul>
+             
+                  <li><a href="#">Got7</a></li>
+                  <li><a href="#">JB</a></li>
+                  <li><a href="#">Mark</a></li>
+                  <li><a href="#">Jackson</a></li>
+                  <li><a href="#">Jinyoung</a></li>
+                  <li><a href="#">Youngjae</a></li>
+                  <li><a href="#">BamBam</a></li>
+                  <li><a href="#">Yugyeom</a></li>
+              
+           </ul>
+          </li>
+          
+          
+          <li class="drop-down"><a href="#">Community</a>
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="team.html">Notice</a></li>
+              <li><a href="testimonials.html">News</a></li>
+              <li><a href="about.html">Free</a></li>
+              <li><a href="testimonials.html">Question</a></li>
 
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
+              <li class="drop-down"><a href="#">To say</a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Got7</a></li>
+                  <li><a href="#">JB</a></li>
+                  <li><a href="#">Mark</a></li>
+                  <li><a href="#">Jackson</a></li>
+                  <li><a href="#">Jinyoung</a></li>
+                  <li><a href="#">Youngjae</a></li>
+                  <li><a href="#">BamBam</a></li>
+                  <li><a href="#">Yugyeom</a></li>
                 </ul>
               </li>
             </ul>
           </li>
 
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+            <li class="drop-down"><a href="#">Video</a>
+            <ul>
+              <li><a href="team.html">Stage</a></li>
+              <li><a href="testimonials.html">Interview</a></li>
+              <li><a href="about.html">entertainment</a></li>
+              <li><a href="testimonials.html">Live</a></li>
+
+            </ul>
+          </li>
+          
+          <li class="drop-down"><a href="#">Photo</a>
+            <ul>
+              <li><a href="team.html">Album</a></li>
+              <li><a href="testimonials.html">Group</a></li>
+              
+              
+              
+              <li class="drop-down"><a href="testimonials.html">Member</a>
+             <ul>
+              <li><a href="#">JB</a></li>
+              <li><a href="#">Mark</a></li>
+              <li><a href="#">Jackson</a></li>
+              <li><a href="#">Jinyoung</a></li>
+              <li><a href="#">Youngjae</a></li>
+              <li><a href="#">BamBam</a></li>
+              <li><a href="#">Yugyeom</a></li>
+              </ul>
+			</li>
+			
+			
+            </ul>
+          </li>
+          
+          
+          <li class="drop-down"><a href="pricing.html">Enjoy</a>
+          <ul>
+           <li><a href="#">OpenChat</a></li>
+           <li><a href="#">Instagram</a></li>
+           <li><a href="#">YouTube</a></li>
+           <li><a href="#">Twitter</a></li>
+           <li><a href="#">Fan cafe</a></li>
+          </ul>
+          </li>
+          
+          
+           <li class="drop-down"><a href="pricing.html">Store</a>
+          <ul>
+           <li><a href="#">Official Goods</a></li>
+           <li><a href="#">Unofficial Goods</a></li>
+           <li><a href="#">Album</a></li>
+           <li><a href="#">Marketplace</a></li>
+          </ul>
+          </li>
+          
+          
+          <li><a href="contact.html">My Page</a></li>
 
         </ul>
 
