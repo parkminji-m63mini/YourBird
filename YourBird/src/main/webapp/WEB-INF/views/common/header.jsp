@@ -40,6 +40,12 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  
+  
+  
+  <!-- 내가만든 css -->
+  <link href="${contextPath}/resources/css/dictionary.css" rel="stylesheet">
+  
 </head>
 
 <body>
