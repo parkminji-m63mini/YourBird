@@ -32,7 +32,7 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(resources/img/slide/nbm_got.jpg)">
+        <div class="carousel-item " style="background-image: url(resources/img/slide/nbm_got.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">NOT BY THE MOON</h2>
@@ -56,10 +56,10 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(resources/img/slide/PP.JPG)">
+        <div class="carousel-item active" style="background-image: url(resources/img/slide/breathCover.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Pretty Please</h2>
+              <h2 class="animate__animated animate__fadeInDown">Breath of Love : Last Piece</h2>
               <p class="animate__animated animate__fadeInUp">
               </p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
