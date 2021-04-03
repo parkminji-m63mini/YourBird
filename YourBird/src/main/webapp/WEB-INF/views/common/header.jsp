@@ -66,7 +66,7 @@
         <li ><a href="${contextPath}/company/about">About</a></li>
 
 
-		 <li class="drop-down"><a href="#">Dictionary</a>
+		 <li class="drop-down"><a href="${contextPath}/dictionary/got7">Dictionary</a>
            <ul>
              
                   <li><a href="${contextPath}/dictionary/got7">Got7</a></li>
@@ -82,7 +82,7 @@
           </li>
           
           
-          <li class="drop-down"><a href="#">Community</a>
+          <li class="drop-down"><a href="team.html">Community</a>
             <ul>
               <li><a href="team.html">Notice</a></li>
               <li><a href="testimonials.html">News</a></li>
@@ -165,7 +165,7 @@
 
       </nav><!-- .nav-menu -->
 
-      <a href="index.html" class="get-started-btn ml-auto">Get Started</a>
+      <a href="${contextPath}/login/login" class="get-started-btn ml-auto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
