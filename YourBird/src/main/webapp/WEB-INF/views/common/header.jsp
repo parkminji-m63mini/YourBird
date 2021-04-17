@@ -62,7 +62,7 @@
 
         <ul>
         
-          <%-- <li class="active"><a href="#">About</a></li>--%>
+          <%-- <li class="active"><a href="${contextPath}">About</a></li>--%>
         <li ><a href="${contextPath}/company/about">About</a></li>
 
 
@@ -82,54 +82,54 @@
           </li>
           
           
-          <li class="drop-down"><a href="team.html">Community</a>
+          <li class="drop-down"><a href="${contextPath}/community/notice">Community</a>
             <ul>
-              <li><a href="team.html">Notice</a></li>
-              <li><a href="testimonials.html">News</a></li>
-              <li><a href="about.html">Free</a></li>
-              <li><a href="testimonials.html">Question</a></li>
+              <li><a href="${contextPath}/community/notice">Notice</a></li>
+              <li><a href="${contextPath}/community/news">News</a></li>
+              <li><a href="${contextPath}/community/free">Free</a></li>
+              <li><a href="${contextPath}/community/question">Question</a></li>
 
-              <li class="drop-down"><a href="#">To say</a>
+              <li class="drop-down"><a href="${contextPath}/toSay/t_got7">To say</a>
                 <ul>
-                  <li><a href="#">Got7</a></li>
-                  <li><a href="#">JB</a></li>
-                  <li><a href="#">Mark</a></li>
-                  <li><a href="#">Jackson</a></li>
-                  <li><a href="#">Jinyoung</a></li>
-                  <li><a href="#">Youngjae</a></li>
-                  <li><a href="#">BamBam</a></li>
-                  <li><a href="#">Yugyeom</a></li>
+                  <li><a href="${contextPath}/toSay/t_got7">Got7</a></li>
+                  <li><a href="${contextPath}/toSay/t_jb">JB</a></li>
+                  <li><a href="${contextPath}/toSay/t_mark">Mark</a></li>
+                  <li><a href="${contextPath}/toSay/t_jack">Jackson</a></li>
+                  <li><a href="${contextPath}/toSay/t_jin">Jinyoung</a></li>
+                  <li><a href="${contextPath}/toSay/t_young">Youngjae</a></li>
+                  <li><a href="${contextPath}/toSay/t_bb">BamBam</a></li>
+                  <li><a href="${contextPath}/toSay/t_yg">Yugyeom</a></li>
                 </ul>
               </li>
             </ul>
           </li>
 
-            <li class="drop-down"><a href="#">Video</a>
+            <li class="drop-down"><a href="${contextPath}/video/stage">Video</a>
             <ul>
-              <li><a href="team.html">Stage</a></li>
-              <li><a href="testimonials.html">Interview</a></li>
-              <li><a href="about.html">entertainment</a></li>
-              <li><a href="testimonials.html">Live</a></li>
+              <li><a href="${contextPath}/video/stage">Stage</a></li>
+              <li><a href="${contextPath}/video/interview">Interview</a></li>
+              <li><a href="${contextPath}/video/entertainment">Entertainment</a></li>
+              <li><a href="${contextPath}/video/live">Live</a></li>
 
             </ul>
           </li>
           
-          <li class="drop-down"><a href="#">Photo</a>
+          <li class="drop-down"><a href="${contextPath}/photo/album">Photo</a>
             <ul>
-              <li><a href="team.html">Album</a></li>
-              <li><a href="testimonials.html">Group</a></li>
+              <li><a href="${contextPath}/photo/album">Album</a></li>
+              <li><a href="${contextPath}/photo/group">Group</a></li>
               
               
               
-              <li class="drop-down"><a href="testimonials.html">Member</a>
+              <li class="drop-down"><a href="${contextPath}/member/m_JB">Member</a>
              <ul>
-              <li><a href="#">JB</a></li>
-              <li><a href="#">Mark</a></li>
-              <li><a href="#">Jackson</a></li>
-              <li><a href="#">Jinyoung</a></li>
-              <li><a href="#">Youngjae</a></li>
-              <li><a href="#">BamBam</a></li>
-              <li><a href="#">Yugyeom</a></li>
+              <li><a href="${contextPath}/member/m_JB">JB</a></li>
+              <li><a href="${contextPath}/member/m_Mark">Mark</a></li>
+              <li><a href="${contextPath}/member/m_Jackson">Jackson</a></li>
+              <li><a href="${contextPath}/member/m_Jinyoung">Jinyoung</a></li>
+              <li><a href="${contextPath}/member/m_Youngjae">Youngjae</a></li>
+              <li><a href="${contextPath}/member/m_BamBam">BamBam</a></li>
+              <li><a href="${contextPath}/member/m_Yugyeom">Yugyeom</a></li>
               </ul>
 			</li>
 			
@@ -138,28 +138,28 @@
           </li>
           
           
-          <li class="drop-down"><a href="pricing.html">Enjoy</a>
+          <li class="drop-down"><a href="${contextPath}/enjoy/openChat.jsp">Enjoy</a>
           <ul>
-           <li><a href="#">OpenChat</a></li>
-           <li><a href="#">Instagram</a></li>
-           <li><a href="#">YouTube</a></li>
-           <li><a href="#">Twitter</a></li>
-           <li><a href="#">Fan cafe</a></li>
+           <li><a href="${contextPath}/enjoy/openChat">OpenChat</a></li>
+           <li><a href="${contextPath}/enjoy/instagram">Instagram</a></li>
+           <li><a href="${contextPath}/enjoy/youTube">YouTube</a></li>
+           <li><a href="${contextPath}/enjoy/twitter">Twitter</a></li>
+           <li><a href="${contextPath}/enjoy/fanCafe">Fan cafe</a></li>
           </ul>
           </li>
           
           
-           <li class="drop-down"><a href="pricing.html">Store</a>
+           <li class="drop-down"><a href="${contextPath}/store/officialGoods">Store</a>
           <ul>
-           <li><a href="#">Official Goods</a></li>
-           <li><a href="#">Unofficial Goods</a></li>
-           <li><a href="#">Album</a></li>
-           <li><a href="#">Marketplace</a></li>
+           <li><a href="${contextPath}/store/officialGoods">Official Goods</a></li>
+           <li><a href="${contextPath}/store/unOfficialGoods">Unofficial Goods</a></li>
+           <li><a href="${contextPath}/store/album">Album</a></li>
+           <li><a href="${contextPath}/store/marketplace">Marketplace</a></li>
           </ul>
           </li>
           
           
-          <li><a href="contact.html">My Page</a></li>
+          <li><a href="${contextPath}/myPage/myPage">My Page</a></li>
 
         </ul>
 
@@ -173,7 +173,7 @@
 
  
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="${contextPath}" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="${contextPath}/resources/vendor/jquery/jquery.min.js"></script>
